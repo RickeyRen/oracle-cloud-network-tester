@@ -6,8 +6,8 @@
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-green)](https://www.docker.com/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/oracle-network-test?style=social)](https://github.com/yourusername/oracle-network-test/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/oracle-network-test?style=social)](https://github.com/yourusername/oracle-network-test/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/RickeyRen/oracle-cloud-network-tester?style=social)](https://github.com/RickeyRen/oracle-cloud-network-tester/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/RickeyRen/oracle-cloud-network-tester?style=social)](https://github.com/RickeyRen/oracle-cloud-network-tester/network/members)
 
 **🚀 一个强大的工具，用于测试 Oracle Cloud 全球 24 个数据中心的网络性能**
 
@@ -107,8 +107,8 @@ docker-compose up -d
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/yourusername/oracle-network-test.git
-cd oracle-network-test
+git clone https://github.com/RickeyRen/oracle-cloud-network-tester.git
+cd oracle-cloud-network-tester
 
 # 2. 安装依赖
 pip install -r requirements.txt
@@ -143,7 +143,7 @@ python cli.py                    # CLI 版本
 ### 使用 Docker Compose (推荐)
 ```bash
 # 下载配置文件
-curl -O https://raw.githubusercontent.com/yourusername/oracle-network-test/main/docker-compose.yml
+curl -O https://raw.githubusercontent.com/RickeyRen/oracle-cloud-network-tester/main/docker-compose.yml
 
 # 一键部署
 docker-compose up -d
@@ -178,11 +178,11 @@ docker logs oracle-test
 ### 1. 获取源码
 ```bash
 # 方式一：Git Clone
-git clone https://github.com/yourusername/oracle-network-test.git
-cd oracle-network-test
+git clone https://github.com/RickeyRen/oracle-cloud-network-tester.git
+cd oracle-cloud-network-tester
 
 # 方式二：下载 ZIP
-wget https://github.com/yourusername/oracle-network-test/archive/main.zip
+wget https://github.com/RickeyRen/oracle-cloud-network-tester/archive/main.zip
 unzip main.zip && cd oracle-network-test-main
 ```
 
@@ -551,12 +551,12 @@ oracle-network-test/
 
 发现问题了吗？请帮助我们改进：
 
-1. 🔍 检查 [现有 Issues](https://github.com/yourusername/oracle-network-test/issues) 避免重复
+1. 🔍 检查 [现有 Issues](https://github.com/RickeyRen/oracle-cloud-network-tester/issues) 避免重复
 2. 📝 使用 Bug Report 模板创建新 Issue
 3. 📋 提供详细的复现步骤和环境信息
 4. 🖼️ 如可能，请附上截图或错误日志
 
-[📝 报告 Bug](https://github.com/yourusername/oracle-network-test/issues/new?template=bug_report.md)
+[📝 报告 Bug](https://github.com/RickeyRen/oracle-cloud-network-tester/issues/new?template=bug_report.md)
 
 </details>
 
@@ -570,7 +570,7 @@ oracle-network-test/
 3. 💭 详细描述功能需求和使用场景
 4. 🎯 说明这个功能的价值和重要性
 
-[💡 请求功能](https://github.com/yourusername/oracle-network-test/issues/new?template=feature_request.md)
+[💡 请求功能](https://github.com/RickeyRen/oracle-cloud-network-tester/issues/new?template=feature_request.md)
 
 </details>
 
@@ -582,8 +582,8 @@ oracle-network-test/
 ```bash
 # 1. Fork 项目到你的 GitHub 账户
 # 2. 克隆你的 Fork
-git clone https://github.com/yourusername/oracle-network-test.git
-cd oracle-network-test
+git clone https://github.com/RickeyRen/oracle-cloud-network-tester.git
+cd oracle-cloud-network-tester
 
 # 3. 创建特性分支
 git checkout -b feature/amazing-feature
@@ -613,8 +613,8 @@ git push origin feature/amazing-feature
 感谢所有为这个项目做出贡献的开发者：
 
 <!-- 这里将来可以添加贡献者列表 -->
-<a href="https://github.com/yourusername/oracle-network-test/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=yourusername/oracle-network-test" />
+<a href="https://github.com/RickeyRen/oracle-cloud-network-tester/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=RickeyRen/oracle-cloud-network-tester" />
 </a>
 
 ## 📄 许可证
@@ -635,14 +635,14 @@ git push origin feature/amazing-feature
 ### 🆘 获取帮助
 
 - 📚 **文档**: 查看本 README 和 [贡献指南](./CONTRIBUTING.md)
-- 🐛 **Bug 报告**: [GitHub Issues](https://github.com/yourusername/oracle-network-test/issues)
-- 💬 **讨论**: [GitHub Discussions](https://github.com/yourusername/oracle-network-test/discussions)
+- 🐛 **Bug 报告**: [GitHub Issues](https://github.com/RickeyRen/oracle-cloud-network-tester/issues)
+- 💬 **讨论**: [GitHub Discussions](https://github.com/RickeyRen/oracle-cloud-network-tester/discussions)
 - 📧 **邮件**: [your-email@example.com](mailto:your-email@example.com)
 
 ### 🤝 社区
 
-- 💻 **开发交流**: [GitHub Discussions](https://github.com/yourusername/oracle-network-test/discussions)
-- 🔄 **贡献代码**: [Pull Requests](https://github.com/yourusername/oracle-network-test/pulls)
+- 💻 **开发交流**: [GitHub Discussions](https://github.com/RickeyRen/oracle-cloud-network-tester/discussions)
+- 🔄 **贡献代码**: [Pull Requests](https://github.com/RickeyRen/oracle-cloud-network-tester/pulls)
 - ⭐ **关注更新**: Watch 本仓库获取最新动态
 
 ---
@@ -651,8 +651,8 @@ git push origin feature/amazing-feature
 
 ### 🌟 如果这个项目对你有帮助，请给个 Star！
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/oracle-network-test?style=social&label=Star)](https://github.com/yourusername/oracle-network-test/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/oracle-network-test?style=social&label=Fork)](https://github.com/yourusername/oracle-network-test/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/RickeyRen/oracle-cloud-network-tester?style=social&label=Star)](https://github.com/RickeyRen/oracle-cloud-network-tester/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/RickeyRen/oracle-cloud-network-tester?style=social&label=Fork)](https://github.com/RickeyRen/oracle-cloud-network-tester/network/members)
 
 **Made with ❤️ by Oracle Network Test Contributors**
 
