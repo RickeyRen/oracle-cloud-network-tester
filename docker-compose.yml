@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  oracle-network-test:
+    build: .
+    image: oracle-network-test:latest
+    container_name: oracle-network-test
+    ports:
+      - "5001:5001"
+    environment:
+      - TZ=Asia/Shanghai
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+    networks:
+      - oracle-test-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5001/"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 10s
+    labels:
+      - "com.oracle-network-test.description=Oracle Cloud Network Testing Tool"
+      - "com.oracle-network-test.version=2.1.0"
+
+networks:
+  oracle-test-network:
+    driver: bridge
