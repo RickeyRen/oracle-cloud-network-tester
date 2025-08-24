@@ -637,7 +637,6 @@ git push origin feature/amazing-feature
 - 📚 **文档**: 查看本 README 和 [贡献指南](./CONTRIBUTING.md)
 - 🐛 **Bug 报告**: [GitHub Issues](https://github.com/RickeyRen/oracle-cloud-network-tester/issues)
 - 💬 **讨论**: [GitHub Discussions](https://github.com/RickeyRen/oracle-cloud-network-tester/discussions)
-- 📧 **邮件**: [your-email@example.com](mailto:your-email@example.com)
 
 ### 🤝 社区
 
